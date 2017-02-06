@@ -1,0 +1,260 @@
+yum installed git
+yum list installed git
+yum -y -e 0 -d 0 install gcc-c++ patch readline readline-devel zlib zlib-devel
+yum list installed gcc-c++ patch readline readline-devel zlib zlib-devel
+yum -y -e 0 -d 0 install libyaml-devel libffi-devel openssl-devel make
+yum list installed libyaml-devel libffi-devel openssl-devel make
+yum -y -e 0 -d 0 install bzip2 autoconf automake libtool bison iconv-devel
+yum list installed bzip2 autoconf automake libtool bison iconv-devel
+yum install iconv-devel
+yum provides */iconv*
+yum provides */iconv-devel
+sudo curl -L get.rvm.io >> rvm_installer.sh
+chmod a+x rvm_installer.sh
+ls
+pwd
+./rvm_installer.sh
+source /etc/profile.d/rvm.sh
+rvm install 2.3.1
+yum install java-1.8.0-openjdk-devel libselinux-ruby gcc
+wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+curl -i  https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein >> lein
+ls
+chmod a+x lein
+cp /bin/lein
+cp lein /bin/lein
+ls -lrt /bin/lein
+lein
+yum -y install wget
+rm -f lein 
+ls
+exit
+gem install json_pure
+gem install rake
+gem install openssl
+gem install bundler
+pip install paramiko
+which python
+yum update python
+yum install python
+yum install pip
+easy_install pip
+pip update
+pip --help
+pip install paramiko
+gcc
+pip install PyYAML Jinja2 httplib2 siz
+pip install PyYAML Jinja2 httplib2 six
+exit
+gem --help
+gem list --local
+cd ..
+exit
+vi install.sh
+chmod 655 install.sh 
+./install.sh 
+puppet master --genconfig > /etc/puppetlabs/puppet/puppet.conf 
+vi /etc/puppetlabs/puppet/puppet.conf 
+puppet config print manifest --section master --environment production
+puppet master --verbose --no-daemonize 
+vi /etc/hosts
+vi /etc/hosts
+ping agentpup
+puppet master --verbose --no-daemonize
+puppet cert list
+puppet cert list --all
+vi /etc/hosts
+hostname
+puppet master --verbose --no-daemonize
+puppet cert list
+puppet cert sign agentpup.example.com
+puppet cert list
+puppet cert list --all
+systemctl status firewalld
+systemctl stop firewalld
+puppet master --verbose --no-daemonize 
+puppet master --verbose --no-daemonize 
+cd /etc/puppetlabs/puppet/ssl/
+ls
+cd ca
+ls
+vi inventory.txt 
+rm -rf /etc/puppetlabs/puppet/ssl/
+puppet master --verbose --no-daemonize
+vi /etc/hosts
+puppet master --verbose --no-daemonize
+vi /var/run/puppetlabs/master.pid
+kill v
+kill 4259
+puppet master --verbose --no-daemonize
+vi /etc/hosts
+puppet master --verbose --no-daemonize
+puppet master --verbose --no-daemonize
+puppet cert list
+puppet cert list --all
+cd /etc/puppetlabs/puppet/
+ls
+rm -rf ssl
+ls
+puppet master --verbose --no-daemonize
+vi /etc/hosts
+puppet cert list --all
+puppet cert sign agentpup.example.com
+puppet cert list --all
+puppet cert list --all
+cat /etc/hosts
+cd /etc/puppetlabs/puppet/
+ls
+cd ssl
+ls
+cd ca
+ls
+vi inventory.txt 
+cd ..
+cd certificate_requests/
+ls
+cd ..
+cd certs
+ls
+cd
+rm -rf /etc/puppetlabs/puppet/puppet.conf 
+vi /etc/puppetlabs/puppet/puppet.conf 
+rm -rf /etc/puppetlabs/puppet/ssl/
+puppet master --verbose --no-daemonize
+vi /etc/puppetlabs/code/environments/production/manifests/site.pp 
+cd /etc/puppetlabs/code/environments/production/manifests/
+ls
+mkdir modules
+ls
+cd modules/
+ls
+vi init.pp
+mkdir httpd
+ls
+cd httpd/
+mkdir manifests
+ls
+cd manifests/
+ls
+vi init.pp
+cd
+puppet master --verbose --no-daemonize
+puppet cert list 
+puppet cert sign agentpup.c.iacschool-152306.internal
+puppet cert list -all
+vi -p /etc/puppetlabs/code/environments/production/manifests/site.pp
+cd /etc/puppetlabs/code/environments/production/manifests/site.pp
+mkdir -p /etc/puppetlabs/code/environments/production/manifests/
+vi /etc/puppetlabs/code/environments/production/manifests/site.pp
+cd /etc/puppetlabs/code/environments/production/manifests/modules/
+ls
+cd httpd/
+ls
+cd manifests/
+ls
+vi init.pp 
+puppet master --verbose --no-daemonize 
+puppet master --verbose --no-daemonize
+cd /etc/puppetlabs/code/environments/production/manifests/
+ls
+puppet config print manifest --section master --environment production
+puppet master --verbose --no-daemonize
+ls
+vi site.pp 
+cd ..
+cd manifests/
+ls
+cd modules/
+ls
+mv httpd1 httpd
+mv httpd httpd1
+ls
+cd httpd1/
+ls
+cd manifests/
+ls
+vi init.pp 
+puppet master --verbose --no-daemonize
+ls
+cd ..
+cd ..
+ls
+vi site.pp 
+puppet master --verbose --no-daemonize
+ls
+cd modules/
+ls
+cd httpd1/
+ls
+cd manifests/
+ls
+vi init.pp 
+puppet master --verbose --no-daemonize
+puppet master --verbose --no-daemonize
+ls
+vi init.pp 
+puppet master --verbose --no-daemonize
+ls
+cd ..
+cd ..
+cd ..
+ls
+vi site.pp 
+puppet master --verbose --no-daemonize
+puppet master --verbose --no-daemonize
+vi site.pp 
+puppet master --verbose --no-daemonize
+vi site.pp 
+puppet master --verbose --no-daemonize
+puppet master --verbose --no-daemonize
+yum install git 
+git init
+cd home
+cd ~
+ls
+cd /home/keerthishilpakala/.git/
+ls
+git add /etc/puppetlabs/code/environments/production/
+cd
+git add /etc/puppetlabs/code/environments/production/
+git init
+git init PupRepo
+git add /etc/puppetlabs/code/environments/production/
+git status
+ls
+git init --bare PupRepo
+cd PupRepo/
+ls
+cd
+git clone PupRepo/
+cd P
+cd PupRepo/
+git init
+git status
+git add PupRepo
+cd
+cd
+git add PupRepo
+git remot add origin https://github.com/keerthishilpa/Puppet.git
+git remote add origin https://github.com/keerthishilpa/Puppet.git
+git commit -m "PuppetRepo"
+git config --global user.name "keerthishilpakala@gmail.com"
+git config --global user.email  "keerthishilpakala@gmail.com"
+git config --global user.name "keerthishilpa"
+git commit -m "PuupetRepo"
+git push -u https://github.com/keerthishilpa/Puppet.git
+git pull -u https://github.com/keerthishilpa/Puppet.git
+git push -u https://github.com/keerthishilpa/Puppet.git
+git push -u https://github.com/keerthishilpa/Puppet.git
+ls
+cd prod
+ls
+cd Puppet/
+ls
+cd
+git init
+git status
+git add /etc/puppetlabs/code/environments/production/
+vim history.txt
+histroy -w history.txt 
+history -w history.txt 

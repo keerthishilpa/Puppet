@@ -1,0 +1,590 @@
+    1  yum installed git
+    2  yum list installed git
+    3  yum -y -e 0 -d 0 install gcc-c++ patch readline readline-devel zlib zlib-devel
+    4  yum list installed gcc-c++ patch readline readline-devel zlib zlib-devel
+    5  yum -y -e 0 -d 0 install libyaml-devel libffi-devel openssl-devel make
+    6  yum list installed libyaml-devel libffi-devel openssl-devel make
+    7  yum -y -e 0 -d 0 install bzip2 autoconf automake libtool bison iconv-devel
+    8  yum list installed bzip2 autoconf automake libtool bison iconv-devel
+    9  yum install iconv-devel
+   10  yum provides */iconv*
+   11  yum provides */iconv-devel
+   12  sudo curl -L get.rvm.io >> rvm_installer.sh
+   13  chmod a+x rvm_installer.sh
+   14  ls
+   15  pwd
+   16  ./rvm_installer.sh
+   17  source /etc/profile.d/rvm.sh
+   18  rvm install 2.3.1
+   19  yum install java-1.8.0-openjdk-devel libselinux-ruby gcc
+   20  wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+   21  curl -i  https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein >> lein
+   22  ls
+   23  chmod a+x lein
+   24  cp /bin/lein
+   25  cp lein /bin/lein
+   26  ls -lrt /bin/lein
+   27  lein
+   28  yum -y install wget
+   29  rm -f lein 
+   30  ls
+   31  exit
+   32  gem install json_pure
+   33  gem install rake
+   34  gem install openssl
+   35  gem install bundler
+   36  pip install paramiko
+   37  which python
+   38  yum update python
+   39  yum install python
+   40  yum install pip
+   41  easy_install pip
+   42  pip update
+   43  pip --help
+   44  pip install paramiko
+   45  gcc
+   46  pip install PyYAML Jinja2 httplib2 siz
+   47  pip install PyYAML Jinja2 httplib2 six
+   48  exit
+   49  gem --help
+   50  gem list --local
+   51  cd ..
+   52  exit
+   53  ls 
+   54  pwd
+   55  whoami
+   56  yum install wget 
+   57  wget http://sourceforge.net/projects/lsb/files/lsb_release/1.4/lsb-release-1.4.tar.gz
+   58  tar zxvf lsb-release-1.4.tar.gz 
+   59  cd lsb-release-1.4
+   60  ls
+   61  yum install lsb_release
+   62  cd
+   63  cd lsb-release-1.4
+   64  ls
+   65  sudo su 
+   66  ls
+   67  ls 
+   68  cd lsb-release-1.4
+   69  make install
+   70  make
+   71  cd ..
+   72  ruby -v
+   73  wget https://downloads.puppetlabs.com/puppet/puppet-4.8.1.tar.gz
+   74  tar zxvf puppet-4.8.1.tar.gz 
+   75  wget http://downloads.puppetlabs.com/facter/facter-1.6.8.tar.gz
+   76  ls
+   77  tar zxvf facter-1.6.8.tar.gz 
+   78  wget https://downloads.puppetlabs.com/hiera/hiera-3.0.6.tar.gz
+   79  tar zxvf hiera-3.0.6.tar.gz 
+   80  ls
+   81  cd facter-1.6.8
+   82  ls
+   83  whoami
+   84  ruby install.rb 
+   85  cd ..
+   86  cd hiera-3.0.6
+   87  ls
+   88  ruby install.rb 
+   89  cd ..
+   90  cd puppet-4.8.1
+   91  ls
+   92  ruby install.rb 
+   93  cd ..
+   94  ls
+   95  sudo puppet resource group puppetgroup ensure=present
+   96  ls
+   97  cd puppet-4.8.1
+   98  ls
+   99  cd ..
+  100  etc
+  101  cd tec
+  102  cd etc
+  103  cd /etc
+  104  ls
+  105  cd puppetlabs/
+  106  ls
+  107  cd puppet/
+  108  ls
+  109  cd ..
+  110  cd ..
+  111  cd ..
+  112  pwd
+  113  cd
+  114  cd
+  115  sudo puppet resource group puppet ensure=present
+  116  puppet --version
+  117   puppet resource group puppet ensure=present
+  118   puppet resource group puppetgroup ensure=present
+  119  puppet resource user puppetuser ensure=present gid=puppet shell='/sbin/nologin'
+  120  puppet resource user puppetuser ensure=present gid=puppetgroup shell='/sbin/nologin'
+  121  ls
+  122  cd /home
+  123  ls
+  124  cd inamdar_surabhi01/
+  125  ls
+  126  cd /etc
+  127  ls
+  128  cd ..
+  129  sudo su 
+  130  clear 
+  131  ls 
+  132  cat /etc/passwd
+  133  cat /etc/groups
+  134  cat /etc/group
+  135  groupdel puppet
+  136  cat /etc/groups
+  137  cat /etc
+  138  cat /etc/groups
+  139  cat /etc/group
+  140  clear
+  141  ls
+  142  cd /etc
+  143  ls
+  144  cd puppetlabs/
+  145  ls
+  146  cd puppet/
+  147  ls
+  148  puppet resource service puppet ensure=running enable=true
+  149  cd ..
+  150  puppet resource service puppet ensure=running enable=true
+  151  cd ..
+  152  cd ..
+  153  puppet resource service puppet ensure=running enable=true
+  154  sudo puppet resource service puppet ensure=running enable=true
+  155  cd /etc/hostname
+  156  ls
+  157  cd ..
+  158  vi /etc/hostname
+  159  vi /etc/hosts
+  160  sudo su puppetuser
+  161  cat /etc/passwd
+  162  cd 
+  163  whoami
+  164  ls 
+  165  puppet resource package puppetmaster ensure=latest
+  166  sudo su -
+  167  sudo su puppetuser
+  168  vi /etc/sysconfig/network
+  169  hostname
+  170  hostname puppetserver.example.com
+  171  hostname
+  172  vi /etc/hosts
+  173  ifconfig
+  174  ipaddr
+  175  vi /etc/hosts
+  176  puppetmaster start 
+  177  puppetserver
+  178  vi /etc/puppet/puppet.conf
+  179  ip addr show
+  180  vi /etc/hostname
+  181  hostname
+  182  ping puppetmaster
+  183  ping puppetmaster.exxample.com
+  184  ping puppetmaster.example.com
+  185  hostname
+  186  exit
+  187  ls
+  188  cd /etc
+  189  ls
+  190  cd puppetlabs/
+  191  ls
+  192  vi /etc/passwd
+  193  cd ..
+  194  cd
+  195  whoami
+  196  ls
+  197  clear
+  198  wget http://downloads.puppetlabs.com/puppet/puppet-4.3.2.tar.gz
+  199  mkdir puppetserver
+  200  tar zxvf puppet-4.3.2.tar.gz -C /target/puppetserver
+  201  tar zxvf puppet-4.3.2.tar.gz --directory /target/puppetserver
+  202  tar zxvf puppet-4.3.2.tar.gz 
+  203  ls
+  204  cd puppetserver
+  205  ls
+  206  mv puppet-4.3.2 puppetserver
+  207  cd ..
+  208  rm -r puppetserver/
+  209  ls
+  210  wget http://downloads.puppetlabs.com/facter/facter-2.4.6.tar.gz
+  211  tar zxvf facter-2.4.6.tar.gz 
+  212  ls
+  213  wget https://downloads.puppetlabs.com/hiera/hiera-3.2.1.tar.gz
+  214  tar zxvf hiera-3.2.1.tar.gz 
+  215  ls
+  216  cp puppet-4.3.2 facter-2.4.6 hiera-3.2.1 puppetserver
+  217  mkdir puppet
+  218  cp puppet-4.3.2 facter-2.4.6 hiera-3.2.1 puppet
+  219  ls
+  220  cd puppet
+  221  ls
+  222  cd ..
+  223  sudo rm -r puppet
+  224  ls
+  225  wget http://sourceforge.net/projects/lsb/files/lsb_release/1.4/lsb-release-1.4.tar.gz
+  226  tar zxvf lsb-release-1.4.tar.gz 
+  227  ls 
+  228  cd lsb-release-1.4
+  229  ls
+  230  make install
+  231  make 
+  232  ls
+  233  ./help2man 
+  234  ./lsb_release 
+  235  cd ..
+  236  ls
+  237  cat /etc/group
+  238  cat /etc/passwd
+  239  ls
+  240  cd puppet-4.3.2
+  241  ls
+  242  ruby install.rb 
+  243  cd ..
+  244  cd facter-2.4.6
+  245  ls 
+  246  ruby install.rb 
+  247  cd ..
+  248  cd hiera-3.2.1
+  249  ls
+  250  ruby install.rb 
+  251  cd ..
+  252  ls
+  253  cd /etc
+  254  ls
+  255  cd puppetlabs/
+  256  ls
+  257  cd puppet/
+  258  ls
+  259  vi puppet.conf 
+  260  cd ..
+  261  cd ..
+  262  cd ..
+  263  ls
+  264  cd
+  265  ls
+  266  cd 
+  267  ls
+  268  ls
+  269  cd /etc
+  270  hostname
+  271  ls
+  272  vi /etc/hosts
+  273  vi /etc/hostname
+  274  ping puppetmaster
+  275  ping puppet
+  276  cd /etc
+  277  ls
+  278  cd ..
+  279  cd /home
+  280  ls
+  281  cd inamdar_surabhi01/
+  282  ls
+  283  cd ..
+  284  cd ..
+  285  pwd
+  286  cd /etc
+  287  ls
+  288  cd puppetlabs/
+  289  ls
+  290  cd puppet/
+  291  mkdir manifest
+  292  mkdir modules
+  293  cd ..
+  294  cd ..
+  295  cd ..
+  296  ls
+  297  cd ..
+  298  ls
+  299  ls
+  300  sudo rm -r puppet-4.3.2 facter-2.4.6 hiera-3.2.1 lsb-release-1.4
+  301  sudo rm -r puppet-4.3.2.tar.gz facter-2.4.6.tar.gz hiera-3.2.1.tar.gz lsb-release-1.4.tar.gz 
+  302  ls
+  303  cd /etc
+  304  ls
+  305  sudo rm -r puppetlabs/
+  306  ls
+  307  cd ..
+  308  cd /var
+  309  ls
+  310  cd /bin
+  311  ls
+  312  ls | grep puppet
+  313  ls
+  314  cd ..
+  315  ls
+  316  pwd
+  317  puppet master --genconfig > /etc/puppet/puppet.conf
+  318  cp /etc/puppet/puppet.conf /etc/puppetlabs/puppet/puppet.conf
+  319  cd /etc
+  320  ls
+  321  cd puppet
+  322  ls
+  323  cat puppet.conf 
+  324  vi puppet.conf 
+  325  cd ..
+  326  cd puppetlabs/
+  327  ls
+  328  cd puppet/
+  329  vi puppet.conf 
+  330  cd /etc
+  331  ls
+  332  cat hostname 
+  333  cat host
+  334  cat hosts
+  335  ls
+  336  cd puppet
+  337  ls
+  338  cd puppetlabs
+  339  cd ..
+  340  cd puppetlabs
+  341  ls
+  342  cd puppet/
+  343  ls
+  344  cd ..
+  345  cd ..
+  346  cd puppet
+  347  ls
+  348  mkdir manifest 
+  349  mkdir modules
+  350  ls
+  351  cd manifest/
+  352  touch site.pp
+  353  ls
+  354  cd ..
+  355  cd ..
+  356  cd ..
+  357  puppet apply /etc/puppet/manifest/site.pp
+  358  cd /etc/puppet/manifest 
+  359  ls
+  360  cat site.pp 
+  361  vi site.pp
+  362  vi site.pp
+  363  cd ..
+  364  ls
+  365  vi puppet.conf 
+  366  cat puppet.conf 
+  367  vi puppet.conf 
+  368  ls
+  369  cd ..
+  370  cd puppetlabs/
+  371  cd puppet/
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd code/
+  376  ls
+  377  puppet module
+  378  cd ..
+  379  cd ..
+  380  cd ..
+  381  puppet module
+  382  # puppet module install puppetlabs-apache --version 0.0.2
+  383  puppet module install puppetlabs-apache --version 0.0.2
+  384   puppet module list
+  385  puppet module search apache
+  386  puppet module install puppetlabs-httpd
+  387  cd /etc/puppet/manifest 
+  388  vi site.pp 
+  389  cd ..
+  390  ls
+  391  vi puppet.conf 
+  392  cd
+  393  puppet master 
+  394  sudo puppet master
+  395  cd /etc
+  396  cat hosts
+  397  history 
+  398  vi hosts
+  399  ip addr show
+  400  cat hosts
+  401  cd /puppet/maifest
+  402  ls
+  403  cd puppet
+  404  ls
+  405  cd manifest/
+  406  ls
+  407  vi site.pp 
+  408  cd
+  409  puppetserver
+  410  sudo puppetserver
+  411  sudo puppet cert list
+  412  sudo puppet cert sign --all
+  413  puppet --version
+  414  mco puppet runonce puppetagent.example.com
+  415   puppet runonce puppetagent.example.com
+  416  sudo puppet master 
+  417  cd /etc
+  418  vi hosts
+  419  cd puppet
+  420  cd manifest/
+  421  cat site.pp 
+  422  cd
+  423  exit
+  424  ls
+  425  puppet master --verbose --no-daemonize
+  426  cd /etc/puppet
+  427  ls
+  428  vi puppet.conf 
+  429  puppet master --verbose --no-daemonize
+  430  puppet cert --list
+  431  sudo puppet module install puppetlabs-apache
+  432  puppet module search apache
+  433  puppet module list
+  434  cat /etc/hosts
+  435  cat /etc/puppet/puppet.conf
+  436  vi /etc/puppet/puppet.conf
+  437  find all config.ru
+  438  puppet cert --list 
+  439  puppet cert -la
+  440  ls /var/lib/puppet
+  441  cd/var
+  442  cd /var
+  443  cd /lib
+  444  ls
+  445  cd
+  446  puppet mmaster start 
+  447  puppet master start 
+  448  sudo puppet master start 
+  449  puppet master --verbose --no-daemonize
+  450  puppet master
+  451  puppet cert list
+  452  puppetserver
+  453  sudo puppetserver
+  454  sudo puppet master --verbose --no-daemonize
+  455  sudo puppet cert list
+  456  sudo puppet cert sign --all
+  457  cd /etc
+  458  cd puppet
+  459  vi puppet.conf 
+  460  cd
+  461  vi /etc/hosts
+  462  sudo puppet master --verbose --no-daemonize
+  463  sudo puppet cert list
+  464  killall puppet
+  465  sudo puppet master --verbose --no-daemonize
+  466  sudo puppet cert list
+  467  puppet master 
+  468  history 
+  469  sudo puppet master --verbose --no-daemonize
+  470  killall
+  471  killall puppet
+  472  sudo puppet master --verbose --no-daemonize
+  473  puppet cert clean 
+  474  cd /etc
+  475  ls
+  476  cd puppet
+  477  ls
+  478  cd ..
+  479  cd puppetlabs/
+  480  ls
+  481  cd
+  482  puppet cert clean iacschool-vm005.c.iacschool-152306.internal.pem
+  483  puppet cert list 
+  484  cat /etc/hosts
+  485  vi /etc/hosts
+  486  histroy 
+  487  history
+  488  sudo puppetserver
+  489  puppet master 
+  490  ping puppet
+  491  ping puppetagent
+  492  sudo puppet master --verbose --no-daemonize
+  493  killall puppet 
+  494  sudo puppet master --verbose --no-daemonize
+  495  puppet cert list 
+  496  cd /etc/puppetlabs
+  497  ls
+  498  cd puppet/
+  499  ls
+  500  cd ls
+  501  cd ssl
+  502  ls
+  503  cd certificate_requests/
+  504  ls
+  505  cd ca
+  506  cd private
+  507  sudo cd private 
+  508  sudo cd private_keys
+  509  cd certs
+  510  cd
+  511  puppet cert list 
+  512  puppet cert list 
+  513  ping puppetagent 
+  514  sudo puppet cert list 
+  515  sudo puppetserver
+  516  sudo puppetmastr 
+  517  sudo puppetmaster 
+  518  sudo puppet
+  519  sudo puppet help
+  520  puppet status
+  521  sudo puppet
+  522  puppet server
+  523  puppet cert list 
+  524  cd /etc/puppetlabs/puppet/ssl
+  525  ls
+  526  cd certs
+  527  ls
+  528  sudo rm -r ca.pem iacschool-vm003.c.iacschool-152306.internal.pem iacschool-vm003.example.com.pem 
+  529  ls
+  530  cd
+  531  puppet cert list 
+  532  puppet cert list 
+  533  puppet master --verbose --no-daemonize
+  534  puppet cert list 
+  535  sudo puppet cert list
+  536  cd /etc
+  537  ls
+  538  cd
+  539  puppet cert list 
+  540  cat /etc/hosts
+  541  vi /etc/hosts
+  542  vi /etc/puppet/puppet.conf
+  543  git init
+  544  git config -global user.email "shilpa.vasanthkumar@acceture.com"
+  545  git config --global user.email "shilpa.vasanthkumar@acceture.com"
+  546  git config --global user.name "keerthishilpa"
+  547  git clone https://github.com/keerthishilpa/Puppet.git
+  548  git status
+  549  puppet cert list
+  550  puppet cert list -all
+  551  cd /etc/puppetlabs/puppet/ssl
+  552  ls
+  553  cd ca
+  554  ls
+  555  vi inventory.txt 
+  556  vi inventory.txt 
+  557  ls
+  558  cd private/
+  559  ls
+  560  cd ..
+  561  cd signed/
+  562  ls
+  563  cd ~
+  564  ls
+  565  ls -a
+  566  git status
+  567  git add Puppet
+  568  git remote add origin https://github.com/keerthishilpa/Puppet.git
+  569  git pull -u https://github.com/keerthishilpa/Puppet.git
+  570  git commit -m "Puppet"
+  571  git status
+  572  git status
+  573  git add Puppet
+  574  git commit -m "FirstCommit"
+  575  git remote -v
+  576  git push -u https://github.com/keerthishilpa/Puppet.git
+  577  cd ~
+  578  ls
+  579  cd Puppet/
+  580  ls
+  581  cd ~
+  582  cp -r /etc/puppetlabs/puppet/ ~
+  583  ls
+  584  cd puppet/
+  585  ls
+  586  cd ..
+  587  git add puppet/
+  588  git commit -m "Puppet"
+  589  git push -u https://github.com/keerthishilpa/Puppet.git
+  590  history > hitsory.txt
